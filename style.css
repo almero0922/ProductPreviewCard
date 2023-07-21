@@ -87,3 +87,32 @@ body{
     background-color: hsl(158, 36%, 24%);
     cursor: pointer;
 }
+@media (min-width: 1440px){
+    .main-container{
+        display: grid;
+        grid-template: 460px / 300px 300px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .main-img-mobile{
+        content: url("./images/image-product-desktop.jpg");
+        border-radius: 15px 0 0 15px;
+    }
+    .text-title{
+        margin-bottom: 1.4rem;
+    }
+    .text-container h1{
+        font-size: 33px;
+    }
+    .text-description{
+        line-height: 1.8;
+        font-size: 16px;
+    }
+    .price-container{
+        align-self: center;
+        margin-top: 1.8rem;
+    }
+    .ca-button{
+        place-self: center;
+    }
+}
